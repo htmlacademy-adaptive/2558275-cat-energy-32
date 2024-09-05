@@ -9,7 +9,7 @@
   </head>
   <body class="page__body">
     <header class="main-header">
-      <a class="main-header__logo">
+      <a class="main-header__logo" href="#">
         <img class="main-header__logo-image" src="#" width="200" height="100" alt="Cat Energy.">
       </a>
       <nav class="main-nav">
@@ -18,19 +18,19 @@
         </button>
 
         <div class="main-nav__wrapper">
-          <ul class="main-nav__list">
+          <ul class="main-nav__list nav-list">
             <li class="nav-list__item nav-list__item--active">
-              <a>
+              <a class="nav-list__link" href="index.html">
                 Главная
               </a>
             </li>
             <li class="nav-list__item">
-              <a href="#">
+              <a class="nav-list__link" href="catalog.html">
                 Каталог продукции
               </a>
             </li>
             <li class="nav-list__item">
-              <a href="#">
+              <a class="nav-list__link" href="#">
                 Подбор программы
               </a>
             </li>
@@ -40,9 +40,9 @@
     </header>
 
     <main class="main-container">
-      <h1 class="">Функциональноепитание для котов</h1>
-      <h2 class="">Занялся собой? Займись котом!</h2>
-      <button class="">Подобрать программу</button>
+      <h1 class="main-container__title">Функциональноепитание для котов</h1>
+      <h2 class="main-container__title">Занялся собой? Займись котом!</h2>
+      <button class="main-container__button" type="button">Подобрать программу</button>
 
       <section class="products">
         <div class="products__wrapper">
@@ -65,7 +65,7 @@
         <h2 class="about__title">Как это работает</h2>
         <div class="about__wrapper">
           <ul class="about__list">
-            <li class="about__item about__item">
+            <li class="about__item">
               <div class="about__icon-wrapper">
                 <svg class="about__icon" width="16" height="16">
                   <use href="#"></use>
@@ -122,40 +122,40 @@
           </div>
 
           <div class="example__image-wrapper">
-            <img class="example__image-before" src="#">
-            <img class="example__image-after" src="#">
+            <img class="example__image-before" src="#" height="200" width="200" alt="example-before">
+            <img class="example__image-after" src="#" height="200" width="200" alt="example-after">
           </div>
         </div>
-      </section>
-
-      <section class="contacts">
-        <div class="contacts__invitation">Приглашаем к сотрудничеству дилеров!</div>
-        <div class="contacts__address"> ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</div>
-      </section>
-
-      <section class="map">
-        <h2 class="visually-hidden">Карта</h2>
       </section>
     </main>
 
     <footer class="main-footer">
       <div class="main-footer__wrapper">
+        <div class="main-footer__contacts">
+          <div class="main-footer__invitation">Приглашаем к сотрудничеству дилеров!</div>
+          <div class="main-footer__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</div>
+        </div>
+
+        <div class="main-footer__map">
+
+        </div>
+        
         <div class="main-footer__social social">
-          <a class="main-footer__logo-link" href="https://htmlacademy.ru/intensive/adaptive"></a>
-            <svg class="copyright__logo" width="16" height="16">
+          <a class="visually-hidden" href="https://htmlacademy.ru/intensive/adaptive">htmlacademy</a>
+            <svg class="main-footer__logo" width="16" height="16">
               <use href="#"></use>
             </svg>
           </a>
 
           <ul class="social__list">
-            <li class="social__item">
-              <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy"></a>
+            <li class="social__item social__item--vkontakte">
+              <a class="visually-hidden" href="https://vk.com/htmlacademy">vk</a>
             </li>
-            <li class="social__item">
-              <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru"></a>
+            <li class="social__item social__item--youtube">
+              <a class="visually-hidden" href="https://www.youtube.com/user/htmlacademyru">youtube</a>
             </li>
-            <li class="social__item">
-              <a class="social__link social__link--telegram" href="https://t.me/htmlacademy"></a>
+            <li class="social__item social__item--telegram">
+              <a class="visually-hidden" href="https://t.me/htmlacademy">telegram</a>
             </li>
           </ul>
 
