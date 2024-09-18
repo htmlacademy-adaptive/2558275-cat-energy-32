@@ -1,5 +1,6 @@
 /* GLOBAL */
 @import "./common/variables.scss";
+@import "./common/mixins.scss";
 @import "./common/global.scss";
 @import "./common/fonts.scss";
 
@@ -23,3 +24,4 @@
 @import "./blocks/order-gift.scss";
 @import "./blocks/promo.scss";
 @import "./blocks/form.scss";
+@import "./blocks/visually-hidden.scss";
