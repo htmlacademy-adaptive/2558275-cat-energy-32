@@ -1,0 +1,17 @@
+.nav-list {
+  color: $text-color-primary;
+  font-family: $secondary-font;
+}
+
+.nav-list__item {
+  font-size: 20px;
+  line-height: 20px;
+
+  &:hover {
+    color: rgba($text-color-primary, 0.6);
+  }
+
+  &:active {
+    color: rgba($text-color-primary, 0.3);
+  }
+}
