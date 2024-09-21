@@ -8,4 +8,39 @@
   color: $text-color-tertiary;
   font-size: 14px;
   line-height: 18px;
+
+  &::before {
+    content: "";
+    background-color: $background-color-tertiary;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 30px 32px;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+  }
+}
+
+.about__item--leaf {
+  &::before {
+    background-image: url(../../icons/stack.svg#leaf);
+  }
+}
+
+.about__item--water {
+  &::before {
+    background-image: url(../../icons/stack.svg#water);
+  }
+}
+
+.about__item--clock {
+  &::before {
+    background-image: url(../../icons/stack.svg#clock);
+  }
+}
+
+.about__item--food {
+  &::before {
+    background-image: url(../../icons/stack.svg#food);
+  }
 }
