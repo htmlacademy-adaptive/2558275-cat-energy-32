@@ -1,7 +1,7 @@
 .item-more {
   &::before {
     content: "";
-    background-image: url(../../icons/stack.svg#plus);
+    background-image: url("../../icons/stack.svg#plus");
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;

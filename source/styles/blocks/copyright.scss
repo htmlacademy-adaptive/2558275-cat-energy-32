@@ -5,14 +5,14 @@
 
   &::after {
     content: "";
-    background-color: #666;
+    background-color: #666666;
     width: 27px;
     height: 34px;
     display: block;
     mask-position: 50%;
     mask-size: contain;
     mask-repeat: no-repeat;
-    mask-image: url(../../icons/stack.svg#html-academy);
+    mask-image: url("../../icons/stack.svg#html-academy");
   }
 
   &:hover {
@@ -21,8 +21,8 @@
     }
   }
 
-  &:hover {
-    &:active {
+  &:active {
+    &::after {
       opacity: 0.3;
     }
   }

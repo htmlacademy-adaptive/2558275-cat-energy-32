@@ -3,7 +3,7 @@
 }
 
 .social__link {
-  background-color: #666;
+  background-color: #666666;
   width: 28px;
   height: 22px;
   display: block;
@@ -21,13 +21,13 @@
 }
 
 .social__link--vkontakte {
-  mask-image: url(../../icons/stack.svg#vkontakte);
+  mask-image: url("../../icons/stack.svg#vkontakte");
 }
 
 .social__link--youtube {
-  mask-image: url(../../icons/stack.svg#youtube);
+  mask-image: url("../../icons/stack.svg#youtube");
 }
 
 .social__link--telegram {
-  mask-image: url(../../icons/stack.svg#telegram);
+  mask-image: url("../../icons/stack.svg#telegram");
 }

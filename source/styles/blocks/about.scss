@@ -23,24 +23,24 @@
 
 .about__item--leaf {
   &::before {
-    background-image: url(../../icons/stack.svg#leaf);
+    background-image: url("../../icons/stack.svg#leaf");
   }
 }
 
 .about__item--water {
   &::before {
-    background-image: url(../../icons/stack.svg#water);
+    background-image: url("../../icons/stack.svg#water");
   }
 }
 
 .about__item--clock {
   &::before {
-    background-image: url(../../icons/stack.svg#clock);
+    background-image: url("../../icons/stack.svg#clock");
   }
 }
 
 .about__item--food {
   &::before {
-    background-image: url(../../icons/stack.svg#food);
+    background-image: url("../../icons/stack.svg#food");
   }
 }

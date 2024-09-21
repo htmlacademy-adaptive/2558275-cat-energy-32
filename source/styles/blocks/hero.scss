@@ -6,7 +6,7 @@
   position: relative;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     width: 100%;
@@ -19,6 +19,7 @@
 
   @media (min-width: $tablet-width) {
     color: $text-color-primary;
+
     &::before {
       display: none;
     }
