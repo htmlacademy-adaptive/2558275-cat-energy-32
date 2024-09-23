@@ -1,3 +1,37 @@
 .main-header {
   display: flex;
+  background-color: $background-color-primary;
+  padding: 13px 21px 14px 20px;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 279px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    justify-content: flex-start;
+    padding: 25px 34px 0 30px;
+    max-width: 704px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 55px 110px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    background: transparent;
+    z-index: 1;
+    max-width: 1220px;
+  }
+}
+
+.main-header__logo-text-wrapper {
+  height: 18px;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 13px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 14px;
+  }
 }
