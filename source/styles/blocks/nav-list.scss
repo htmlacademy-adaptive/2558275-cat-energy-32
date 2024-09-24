@@ -1,6 +1,8 @@
 .nav-list {
   color: $text-color-primary;
   font-family: $secondary-font;
+  display: flex;
+  column-gap: 33px;
 }
 
 .nav-list__item {
@@ -8,10 +10,16 @@
   line-height: 20px;
 
   &:hover {
-    color: rgba($text-color-primary, 0.6);
+    opacity: 0.6;
   }
 
   &:active {
-    color: rgba($text-color-primary, 0.3);
+    opacity: 0.3;
+  }
+}
+
+.nav-list--white {
+  @media (min-width: $desktop-width) {
+    color: $text-color-secondary;
   }
 }

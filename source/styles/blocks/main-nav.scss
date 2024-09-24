@@ -1,5 +1,17 @@
 .main-nav {
   display: flex;
+
+  @media (min-width: $tablet-width) {
+    margin-left: auto;
+  }
+}
+
+.main-nav__wrapper {
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+  }
 }
 
 .main-nav__toggle {
@@ -8,4 +20,8 @@
   background-color: unset;
   height: 24px;
   width: 24px;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
 }
