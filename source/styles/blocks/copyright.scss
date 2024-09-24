@@ -2,8 +2,16 @@
   color: $text-color-tertiary;
   font-size: 16px;
   line-height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 
-  &::after {
+  @media (min-width: $tablet-width) {
+    width: 168px;
+  }
+
+  &:after {
     content: "";
     background-color: #666666;
     width: 27px;
@@ -14,7 +22,7 @@
     mask-repeat: no-repeat;
     mask-image: url("../../icons/stack.svg#html-academy");
   }
-
+  
   &:hover {
     &::after {
       background-color: $background-color-tertiary;
@@ -22,8 +30,6 @@
   }
 
   &:active {
-    &::after {
-      opacity: 0.3;
-    }
+    opacity: 0.3;
   }
 }

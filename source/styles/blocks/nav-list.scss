@@ -3,10 +3,6 @@
   font-family: $secondary-font;
   display: flex;
   column-gap: 33px;
-
-  @media (min-width: $desktop-width) {
-    color: $text-color-secondary;
-  }
 }
 
 .nav-list__item {
@@ -19,5 +15,11 @@
 
   &:active {
     opacity: 0.3;
+  }
+}
+
+.nav-list--white {
+  @media (min-width: $desktop-width) {
+    color: $text-color-secondary;
   }
 }

@@ -8,7 +8,7 @@
     <script src="scripts/index.js" defer></script>
   </head>
   <body class="page__body">
-    <header class="main-header">
+    <header class="main-header container">
       <a class="main-header__logo" href="index.html">
         <picture>
           <source type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-desktop.svg" width="70" height="59">
@@ -25,7 +25,7 @@
         </button>
 
         <div class="main-nav__wrapper">
-          <ul class="main-nav__list nav-list">
+          <ul class="main-nav__list nav-list nav-list--white">
             <li class="nav-list__item nav-list__item--current">
               <a class="nav-list__link" href="index.html">
                 Главная
@@ -63,7 +63,7 @@
       </section>
 
       <section class="products">
-        <ul class="products__list">
+        <ul class="products__list container">
           <li class="products__item products__item--slim">
             <div class="products__icon"></div>
             <h3 class="products__subtitle">Похудение</h3>
@@ -79,7 +79,7 @@
         </ul>
       </section>
 
-      <section class="about">
+      <section class="about container">
         <h2 class="about__title">Как это работает</h2>
         <ul class="about__list">
           <li class="about__item about__item--leaf">
@@ -98,7 +98,7 @@
       </section>
 
       <section class="example">
-        <div class="example__wrapper">
+        <div class="example__wrapper container">
           <h2 class="example__title">Живой пример</h2>
           <p class="example__description">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
           <div class="example__stats-wrapper">
@@ -147,33 +147,32 @@
       </div>
 
       <div class="main-footer__social social">
-        <a class="visually-hidden" href="https://htmlacademy.ru/intensive/adaptive">
-          htmlacademy
-          <svg class="main-footer__logo" width="16" height="16">
-            <use href="#"></use>
-          </svg>
-        </a>
+        <div class="social__wrapper">
+          <a class="social__item social__logo-text-wrapper" href="index.html">
+            <img class="social__logo-text" src="images/logo-text.svg" alt="Cat Energy" width="128" height="24">
+          </a>
 
-        <ul class="social__list">
-          <li class="social__item">
-            <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">
-              <span class="visually-hidden">vk</span>
-            </a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">
-              <span class="visually-hidden">youtube</span>
-            </a>
-          </li>
-          <li class="social__item">
-            <a class="social__link social__link--telegram" href="https://t.me/htmlacademy">
-              <span class="visually-hidden">telegram</span>
-            </a>
-          </li>
-        </ul>
+          <ul class="social__item social__list">
+            <li class="social__list-item">
+              <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">
+                <span class="visually-hidden">vk</span>
+              </a>
+            </li>
+            <li class="social__list-item">
+              <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">
+                <span class="visually-hidden">youtube</span>
+              </a>
+            </li>
+            <li class="social__list-item">
+              <a class="social__link social__link--telegram" href="https://t.me/htmlacademy">
+                <span class="visually-hidden">telegram</span>
+              </a>
+            </li>
+          </ul>
 
-        <div class="main-footer__copyright copyright">
-          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+          <div class="social__item copyright">
+            <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+          </div>
         </div>
       </div>
     </footer>

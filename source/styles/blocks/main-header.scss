@@ -1,16 +1,14 @@
 .main-header {
   display: flex;
   background-color: $background-color-primary;
-  padding: 13px 21px 14px 20px;
+  padding: 13px 20px 14px;
   align-items: center;
   justify-content: space-between;
-  max-width: 280px;
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
     justify-content: flex-start;
     padding: 25px 34px 0 30px;
-    max-width: 704px;
   }
 
   @media (min-width: $desktop-width) {
@@ -20,12 +18,19 @@
     left: 0;
     background: transparent;
     z-index: 1;
-    max-width: 1220px;
   }
 }
 
 .main-header__logo-text-wrapper {
   height: 18px;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 
   @media (min-width: $tablet-width) {
     margin-left: 13px;

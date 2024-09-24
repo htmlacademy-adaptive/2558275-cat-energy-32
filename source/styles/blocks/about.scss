@@ -1,14 +1,11 @@
 .about {
-  width: 280px;
   padding: 20px 20px 0;
 
   @media (min-width: $tablet-width) {
-    width: 708px;
     padding: 0 30px;
   }
 
   @media (min-width: $desktop-width) {
-    width: 1220px;
     padding: 82px 0 0 0;
   }
 }
@@ -30,15 +27,9 @@
   color: $text-color-tertiary;
   font-size: 14px;
   line-height: 18px;
-
-  @media (min-width: $tablet-width) {
-    font-size: 16px;
-    line-height: 24px;
-    width: 230px;
-    min-height: 280px;
-    flex-direction: column;
-    gap: 31px;
-  }
+  align-items: center;
+  position: relative;
+  counter-increment: counter 1;
 
   &::before {
     content: "";
@@ -54,6 +45,30 @@
     @media (min-width: $tablet-width) {
       width: 80px;
       height: 80px;
+    }
+  }
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 24px;
+    width: 230px;
+    min-height: 280px;
+    flex-direction: column;
+    gap: 31px;
+    align-items: flex-start;
+
+    &:after {
+      color: #F2F2F2;
+      content: counter(counter);
+      z-index: -1;
+      font-family: $secondary-font;
+      font-size: 280px;
+      font-weight: 400;
+      line-height: 280px;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 118px;
     }
   }
 }
