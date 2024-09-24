@@ -1,11 +1,11 @@
 .product-list {
   margin-top: 36px;
-  border-top: 1px solid #CDCDCD;
+  border-top: 1px solid #cdcdcd;
   display: flex;
   flex-direction: column;
 
   @media (min-width: $tablet-width) {
-    border: 1px solid #CDCDCD;
+    border: 1px solid #cdcdcd;
     margin-top: 80px;
   }
 
@@ -18,14 +18,13 @@
 }
 
 .product-list__item {
-  border-bottom: 1px solid #CDCDCD;
+  border-bottom: 1px solid #cdcdcd;
   display: flex;
   flex-direction: column;
 
   @media (min-width: $tablet-width) {
     padding: 26px 38px 28px;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: space-between;
   }
 
@@ -47,7 +46,7 @@
 
   @media (min-width: $tablet-width) {
     font-size: 20px;
-  line-height: 20px;
+    line-height: 20px;
   }
 
   @media (min-width: $desktop-width) {
@@ -66,7 +65,7 @@
 
   @media (min-width: $tablet-width) {
     font-size: 16px;
-  line-height: 20px;
+    line-height: 20px;
   }
 
   @media (min-width: $desktop-width) {

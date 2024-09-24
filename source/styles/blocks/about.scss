@@ -6,7 +6,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding: 82px 0 0 0;
+    padding: 82px 0 0;
   }
 }
 
@@ -57,8 +57,8 @@
     gap: 31px;
     align-items: flex-start;
 
-    &:after {
-      color: #F2F2F2;
+    &::after {
+      color: #f2f2f2;
       content: counter(counter);
       z-index: -1;
       font-family: $secondary-font;
@@ -104,8 +104,7 @@
   gap: 20px;
 
   @media (min-width: $tablet-width) {
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     align-items: stretch;
     gap: 153px;
     row-gap: 30px;

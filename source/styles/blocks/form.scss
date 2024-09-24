@@ -1,21 +1,21 @@
 .form {
-    font-family: $secondary-font; 
-    display: flex;
-    flex-direction: column;
-    margin-top: 24px;
-    row-gap: 16px;
-    margin-bottom: 40px;
+  font-family: $secondary-font;
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  row-gap: 16px;
+  margin-bottom: 40px;
 
-    @media (min-width: $tablet-width) {
-      flex-direction: row;
-      width: 632px;
-      margin-bottom: 80px;
-    }
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+    width: 632px;
+    margin-bottom: 80px;
+  }
 
-    @media (min-width: $tablet-width) {
-      width: 752px;
-      margin-bottom: 104px;
-    }
+  @media (min-width: $tablet-width) {
+    width: 752px;
+    margin-bottom: 104px;
+  }
 }
 
 .form__label {
@@ -32,7 +32,7 @@
   box-sizing: border-box;
   flex-shrink: 1;
 
-  &::placeholder{
+  &::placeholder {
     font-family: $secondary-font;
     text-transform: uppercase;
     color: $text-color-tertiary;

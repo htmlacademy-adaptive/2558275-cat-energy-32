@@ -29,7 +29,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    padding: 82px 0 0 0;
+    padding: 82px 0 0;
   }
 }
 
@@ -78,7 +78,10 @@
   }
 }
 
-.example__price-wrapper {
+.example__stats-wrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
   font-family: $secondary-font;
   line-height: 20px;
   font-size: 14px;
@@ -86,15 +89,6 @@
   @media (min-width: $tablet-width) {
     font-size: 20px;
     line-height: 20px;
-  }
-}
-
-.example__stats-wrapper {
-  margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  
-  @media (min-width: $tablet-width) {
     margin-top: 50px;
   }
 

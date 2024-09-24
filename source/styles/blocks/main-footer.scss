@@ -27,7 +27,7 @@
 }
 
 .main-footer--grey {
-  background-color: #F2F2F2;
+  background-color: #f2f2f2;
 }
 
 .main-footer__invitation {
@@ -54,7 +54,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  
+
   @media (min-width: $tablet-width) {
     font-size: 16px;
     text-align: end;
@@ -68,7 +68,7 @@
 
 .main-footer__map {
   height: 362px;
-  
+
   @media (min-width: $tablet-width) {
     height: 400px;
   }

@@ -1,5 +1,5 @@
 .item-more {
-  border-bottom: 1px solid #EBEBEB;
+  border-bottom: 1px solid #ebebeb;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,10 +20,10 @@
 
   @media (min-width: $tablet-width) {
     margin-top: 81px;
-    border: solid 2px #F2F2F2;
+    border: solid 2px #f2f2f2;
     padding: 50px 37px 40px;
 
-    &::before { 
+    &::before {
       width: 60px;
       height: 60px;
     }

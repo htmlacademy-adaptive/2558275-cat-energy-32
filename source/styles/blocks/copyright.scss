@@ -11,7 +11,7 @@
     width: 168px;
   }
 
-  &:after {
+  &::after {
     content: "";
     background-color: #666666;
     width: 27px;
@@ -22,7 +22,7 @@
     mask-repeat: no-repeat;
     mask-image: url("../../icons/stack.svg#html-academy");
   }
-  
+
   &:hover {
     &::after {
       background-color: $background-color-tertiary;
