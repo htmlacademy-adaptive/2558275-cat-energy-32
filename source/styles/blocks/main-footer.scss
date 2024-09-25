@@ -74,7 +74,8 @@
   }
 }
 
-.main-footer__map-image {
+.main-footer__map-frame {
   width: 100%;
-  object-fit: cover;
+  height: 100%;
+  border: none;
 }
