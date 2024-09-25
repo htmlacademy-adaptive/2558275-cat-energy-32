@@ -4,10 +4,19 @@
   font-size: 20px;
   line-height: 20px;
   font-family: $secondary-font;
+  position: absolute;
+  top: 65px;
+  left: 0;
+  right: 0;
+  background-color: $background-color-primary;
+  width: 100%;
 
   @media (min-width: $tablet-width) {
+    background-color: transparent;
+    position: static;
+    width: unset;
     margin-left: auto;
-    margin-top: 14px;
+    margin-top: 39px;
     font-size: 18px;
     line-height: 24px;
   }
@@ -19,22 +28,11 @@
   }
 }
 
-.main-nav__wrapper {
-  display: none;
-
-  @media (min-width: $tablet-width) {
-    display: flex;
-  }
+.main-nav--no-js {
+  display: flex;
+  position: static;
 }
 
-.main-nav__toggle {
-  background-image: url("../../icons/stack.svg#menu-open");
-  border: none;
-  background-color: unset;
-  height: 24px;
-  width: 24px;
-
-  @media (min-width: $tablet-width) {
-    display: none;
-  }
+.main-nav--no-js .main-nav__list {
+  display: flex;
 }
