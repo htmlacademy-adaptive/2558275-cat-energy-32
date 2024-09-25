@@ -3,6 +3,14 @@
   font-family: $secondary-font;
   display: flex;
   column-gap: 33px;
+
+  @media (min-width: $tablet-width) {
+    height: 32px;
+  }
+
+  @media (min-width: $desktop-width) {
+    height: 38px;
+  }
 }
 
 .nav-list__item {
@@ -18,8 +26,20 @@
   }
 }
 
+.nav-list__item--current {
+  @media (min-width: $tablet-width) {
+    border-bottom: 2px solid $background-color-tertiary;
+  }
+}
+
 .nav-list--white {
   @media (min-width: $desktop-width) {
     color: $text-color-secondary;
+  }
+}
+
+.nav-list--white .nav-list__item--current {
+  @media (min-width: $desktop-width) {
+    border-bottom: 2px solid $background-color-primary;
   }
 }
