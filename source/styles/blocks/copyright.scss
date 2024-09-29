@@ -8,7 +8,8 @@
   width: 100%;
 
   @media (min-width: $tablet-width) {
-    width: 168px;
+    width: auto;
+    gap: 23px;
   }
 
   &::after {
