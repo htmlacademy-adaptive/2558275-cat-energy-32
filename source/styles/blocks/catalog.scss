@@ -45,8 +45,7 @@
     margin-top: 84px;
     width: 1220px;
     grid-template-columns: repeat(4, 243);
-    column-gap: 82px;
-    row-gap: 63px;
+    gap: 63px 82px;
   }
 }
 
@@ -99,8 +98,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  align-self: center;
-  justify-self: center;
+  place-self: center center;
 
   @media (min-width: $tablet-width) {
     grid-row: 1 / 2;

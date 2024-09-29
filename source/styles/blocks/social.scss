@@ -72,7 +72,8 @@
   mask-size: contain;
   mask-repeat: no-repeat;
 
-  &:hover,&:focus {
+  &:hover,
+  &:focus {
     background-color: $background-color-tertiary;
   }
 

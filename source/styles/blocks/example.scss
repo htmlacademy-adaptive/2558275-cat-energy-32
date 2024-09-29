@@ -9,7 +9,7 @@
     background-color: unset;
     margin-top: 47px;
     padding-top: 45px;
-    border-top: 1px solid #E6E6E6;
+    border-top: 1px solid #e6e6e6;
 
     &::before {
       content: "";
@@ -108,7 +108,7 @@
   margin-bottom: 3px;
 
   @media (min-width: $tablet-width) {
-    
+
     font-size: 30px;
     line-height: 37px;
   }
