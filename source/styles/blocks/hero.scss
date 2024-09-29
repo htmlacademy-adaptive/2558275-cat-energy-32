@@ -47,7 +47,7 @@
 
   @media (min-width: $tablet-width) {
     width: 528px;
-    min-height: 875px;
+    min-height: 880px;
   }
 
   @media (min-width: $desktop-width) {
@@ -106,12 +106,14 @@
     right: 0;
     margin-right: 141px;
     top: 0;
+    margin-top: 0;
   }
 }
 
 .hero__link {
   width: 280px;
   padding: 10px 0;
+  margin-top: -2px;
   text-align: center;
 
   @media (min-width: $tablet-width) {

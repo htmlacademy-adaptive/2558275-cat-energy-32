@@ -2,11 +2,11 @@
   padding: 20px 20px 0;
 
   @media (min-width: $tablet-width) {
-    padding: 0 30px;
+    padding: 45px 30px 0;
   }
 
   @media (min-width: $desktop-width) {
-    padding: 82px 0 0;
+    padding: 71px 0 0;
   }
 }
 
@@ -14,6 +14,7 @@
   font-family: $secondary-font;
   font-size: 36px;
   line-height: 40px;
+  margin: 0;
 
   @media (min-width: $tablet-width) {
     font-size: 60px;
@@ -52,7 +53,7 @@
   @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 24px;
-    width: 230px;
+    width: 245px;
     min-height: 280px;
     flex-direction: column;
     gap: 31px;
@@ -105,13 +106,18 @@
   gap: 20px;
 
   @media (min-width: $tablet-width) {
+    margin-top: 33px;
     flex-flow: row wrap;
     align-items: stretch;
-    gap: 153px;
-    row-gap: 30px;
+    gap: 138px;
+    row-gap: 37px;
   }
 
   @media (min-width: $desktop-width) {
-    gap: 93px;
+    gap: 78px;
   }
+}
+
+.about__description {
+  margin: 0;
 }

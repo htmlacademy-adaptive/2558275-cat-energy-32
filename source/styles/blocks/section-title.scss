@@ -9,8 +9,20 @@
     background-color: #68b738;
     height: 2px;
     width: 100%;
-    top: 50%;
+    top: 40%;
     z-index: -1;
+  }
+
+  @media (min-width: $tablet-width) {
+    &::before {
+      top: 60%;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    &::before {
+      top: 75%;
+    }
   }
 }
 
@@ -23,7 +35,7 @@
   }
 
   @media (min-width: $desktop-width) {
-    width: 1220px;
+    width: 1300px;
   }
 }
 
@@ -37,7 +49,7 @@
   display: inline-block;
 
   @media (min-width: $tablet-width) {
-    padding: 0 20px 0 40px;
+    padding: 0 40px;
     line-height: 32px;
     font-size: 32px;
   }
