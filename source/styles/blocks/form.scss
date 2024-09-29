@@ -8,12 +8,12 @@
 
   @media (min-width: $tablet-width) {
     flex-direction: row;
-    width: 632px;
+    max-width: 632px;
     margin-bottom: 80px;
   }
 
-  @media (min-width: $tablet-width) {
-    width: 752px;
+  @media (min-width: $desktop-width) {
+    max-width: 752px;
     margin-bottom: 104px;
   }
 }
@@ -50,6 +50,8 @@
 }
 
 .form__button {
+  font-size: 20px;
+  line-height: 26px;
   padding: 15px 0;
 
   @media (min-width: $tablet-width) {

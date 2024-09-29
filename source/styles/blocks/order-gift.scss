@@ -9,7 +9,7 @@
   text-align: center;
 
   @media (min-width: $tablet-width) {
-    margin-top: 70px;
+    margin-top: 68px;
     height: 200px;
     flex-direction: row;
     text-align: left;
@@ -40,7 +40,7 @@
       width: 80px;
       height: 82px;
       margin-bottom: auto;
-      margin-left: 108px;
+      margin-left: 77px;
     }
 
     @media (min-width: $desktop-width) {
@@ -65,6 +65,6 @@
   }
 
   @media (min-width: $desktop-width) {
-    margin: auto 43px auto auto;
+    margin: 0 43px auto auto;
   }
 }
